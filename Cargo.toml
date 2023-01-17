@@ -1,0 +1,17 @@
+[package]
+name = "whoopty"
+version = "0.1.0"
+edition = "2021"
+authors = ["Harris Robin Kalash <hello@harris.dev>"]
+license = "MIT OR Apache-2.0"
+description = "A command-line tool to lookup domains"
+readme = "README.md"
+homepage = "https://github.com/harrisrobin/whoopty"
+repository = "https://github.com/harrisrobin/whoopty"
+keywords = ["cli", "lookup", "whois"]
+categories = ["command-line-utilities"]
+
+
+[dependencies]
+clap = {version = "3.2.23", features = ["derive"]}
+whois-rust = "1.5.1"
