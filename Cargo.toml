@@ -13,5 +13,5 @@ categories = ["command-line-utilities"]
 
 
 [dependencies]
-clap = {version = "3.2.23", features = ["derive"]}
+clap = { version = "4.1.1", features = ["derive"] }
 whois-rust = "1.5.1"
